@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818062</millis>
+  <sequence>0</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleDriver</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>67085EBA Public Enter: "jdbc:oracle:thin:@tldb1d02.tms.toyota.com:1537:AU4T", {user=IPLUS_TEST_FR4_OLTP, password=changeit}</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818561</millis>
+  <sequence>1</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleDriver</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>67085EBA Return: oracle.jdbc.driver.T4CConnection@6ecae1b3</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818561</millis>
+  <sequence>2</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleDriver</class>
+  <method>connect</method>
+  <thread>1</thread>
+  <message>67085EBA Exit [495.155485ms]</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818561</millis>
+  <sequence>3</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.PhysicalConnection</class>
+  <method>prepareStatement</method>
+  <thread>1</thread>
+  <message>6ECAE1B3 Public Enter: "select * from locality where locality_cd = ?1"</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818699</millis>
+  <sequence>4</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.PhysicalConnection</class>
+  <method>prepareStatement</method>
+  <thread>1</thread>
+  <message>6ECAE1B3 Return: oracle.jdbc.driver.OraclePreparedStatementWrapper@39c026b2</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818699</millis>
+  <sequence>5</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.PhysicalConnection</class>
+  <method>prepareStatement</method>
+  <thread>1</thread>
+  <message>6ECAE1B3 Exit [138.118845ms]</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818700</millis>
+  <sequence>6</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OraclePreparedStatement</class>
+  <method>setString</method>
+  <thread>1</thread>
+  <message>39C026B2 Public Enter: 1, "110"</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818700</millis>
+  <sequence>7</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OraclePreparedStatement</class>
+  <method>setString</method>
+  <thread>1</thread>
+  <message>39C026B2 Exit [0.05538ms]</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818700</millis>
+  <sequence>8</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleStatement</class>
+  <method>getResultSet</method>
+  <thread>1</thread>
+  <message>39C026B2 Public Enter: </message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818724</millis>
+  <sequence>9</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleStatement</class>
+  <method>getResultSet</method>
+  <thread>1</thread>
+  <message>39C026B2 Return: oracle.jdbc.driver.OracleResultSetImpl@3e1fc537</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818724</millis>
+  <sequence>10</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleStatement</class>
+  <method>getResultSet</method>
+  <thread>1</thread>
+  <message>39C026B2 Exit [24.054183ms]</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818724</millis>
+  <sequence>11</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleResultSetImpl</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>3E1FC537 Public Enter: </message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818724</millis>
+  <sequence>12</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleResultSetImpl</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>3E1FC537 Exit [0.24039ms]</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818724</millis>
+  <sequence>13</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleStatement</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>39C026B2 Public Enter: </message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818725</millis>
+  <sequence>14</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.OracleStatement</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>39C026B2 Exit [0.416376ms]</message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818725</millis>
+  <sequence>15</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.PhysicalConnection</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>6ECAE1B3 Public Enter: </message>
+</record>
+<record>
+  <date>2016-10-31T16:33:38</date>
+  <millis>1477956818729</millis>
+  <sequence>16</sequence>
+  <logger>oracle.jdbc.driver</logger>
+  <level>FINE</level>
+  <class>oracle.jdbc.driver.PhysicalConnection</class>
+  <method>close</method>
+  <thread>1</thread>
+  <message>6ECAE1B3 Exit [3.345359ms]</message>
+</record>
+</log>
